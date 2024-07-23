@@ -1,0 +1,253 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Lugrasimo", 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.active {
+	text-decoration: underline;
+	background: rgb(32, 32, 32);
+	border-radius: 1rem;
+}
+
+.menu-open{
+	filter: blur(24px);
+	transition: all ease-in-out 450ms;
+}
+
+
+@media screen and (max-width: 1023px) {
+	#nav {
+
+		height: 100vh;
+		width: 75vw;
+		border: none;
+		background-color: rgb(0, 0, 0);
+		position: fixed;
+
+		ul {
+			margin-top: 4rem;
+			height: fit-content;
+			width: 100%;
+			max-width: 100%;
+			flex-direction: column;
+			gap: 5px;
+
+			li {
+				height: 4em;
+				width: 100%;
+				background-color: rgb(32, 32, 32);
+				text-align: center;
+				padding: 2vw;
+				padding-top: 1.2em;
+			}
+		}
+	}
+
+	.active {
+		display: block;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	#h1 {
+		padding-top: 4rem;
+		margin-top: 0;
+		margin-bottom: 10vw;
+
+		div:nth-child(1) {
+			width: 100%;
+			padding: 2rem 5vw;
+
+			h2 {
+				font-size: max(3em, 10vw);
+			}
+
+			span {
+				margin: 5vw auto;
+				padding: 1rem 5vw;
+
+				p {
+					font-size: 3em;
+				}
+			}
+		}
+
+		div:nth-child(2) {
+			width: 100%;
+
+			div {
+				width: 60%;
+				height: 105vw;
+
+				img {
+					margin-left: 15vw;
+					margin-top: 45vw;
+					transform: rotate(-20deg) scale(4);
+				}
+			}
+
+			span {
+				margin: 5vw auto;
+				gap: 5px;
+
+				img {
+					height: max(4vw, 1.5em);
+				}
+
+				a {
+					font-size: 5vw;
+				}
+			}
+		}
+	}
+
+	#h2 {
+		margin: 10vw auto;
+
+		div:nth-child(1) {
+			width: 100%;
+			padding: 0 5vw;
+
+			h3 {
+				font-size: max(3em, 10vw);
+			}
+
+			p {
+				margin: auto;
+				font-size: max(1.3em, 3vw);
+				padding-top: 10vw;
+				padding-left: 5vw;
+				padding-right: 10vw;
+			}
+
+			hr {
+				margin-top: 4vw;
+				margin-left: 5vw;
+			}
+		}
+
+		div:nth-child(2) {
+			width: 100%;
+
+			div {
+				width: 60%;
+				height: 100vw;
+				margin: 15vw auto;
+
+				img {
+					margin-left: 15vw;
+					margin-top: 45vw;
+					transform: scale(4);
+				}
+			}
+		}
+	}
+
+	#h3 {
+		margin: 10vw auto;
+		padding-left: 5vw;
+		height: auto;
+
+		h3 {
+			font-size: max(3em, 10vw);
+		}
+
+		div {
+			position: relative;
+			margin: max(10vw, 3em) 2vw;
+
+			h4 {
+				font-size: max(5vw, 1.5em);
+
+				img {
+					height: max(4vw, 1em);
+				}
+			}
+
+			ul {
+				padding-left: 14vw;
+				padding-right: 5vw;
+				margin-top: 3vw;
+				font-size: max(1.3em, 3vw);
+			}
+		}
+	}
+
+	#lang {
+		margin: 10vw auto;
+		max-width: none;
+
+		h3 {
+			font-size: max(2.7em, 10vw);
+			padding-left: 5vw;
+		}
+
+		>div {
+			width: 85vw;
+			padding: 8vw 4vw;
+			margin: max(10vw, 3em) auto;
+			row-gap: 5vw;
+			column-gap: 9vw;
+		}
+	}
+
+	#langCard {
+		div {
+			width: max(11vw, 4em);
+			height: max(11vw, 4em);
+
+			img {
+				width: max(11vw, 4em);
+			}
+		}
+
+		h5 {
+			font-size: max(1em, 2vw);
+		}
+	}
+
+	#project {
+		margin: 10vw auto;
+
+		h3 {
+			font-size: max(2.7em, 10vw);
+			padding-left: 5vw;
+		}
+	}
+
+	#projectCard {}
+
+	#foot {
+		>div:nth-child(1) {
+			max-width: none;
+			padding: 10vw 0;
+
+			h3 {
+				font-size: max(2.6em, 10vw);
+				padding-left: 5vw;
+			}
+
+			>div {
+				row-gap: 7vw;
+				column-gap: 6vw;
+				margin-top: 7vw;
+
+				div {
+					h5 {
+						font-size: max(1em, 2vw);
+					}
+				}
+			}
+		}
+
+		>div:nth-child(2) {
+			font-size: max(1.6vw, 0.7em);
+			padding: 4vw 2vw;
+		}
+	}
+}
