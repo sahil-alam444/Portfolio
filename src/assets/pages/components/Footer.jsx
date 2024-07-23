@@ -27,7 +27,7 @@ const Footer = () => {
                     <SocialCard src='/social/facebook.png' name='Facebook' link='https://www.facebook.com/sahil.alam.14289210' />
                     <SocialCard src='/social/instagram.png' name='Instagram' link='https://www.instagram.com/ig_rivage' />
                     <SocialCard src='/social/linkedin.png' name='LinkedIn' link='https://www.linkedin.com/in/sahil-alam444' />
-                    <SocialCard src='/social/github.png' name='Github' link='https://www.github.com/sahil-2526' />
+                    <SocialCard src='/social/github.png' name='Github' link='https://www.github.com/sahil-alam444' />
                 </div>
             </div>
             <div className="text-center py-10 border-t-2 border-white">&copy;2024 ALL RIGHTS RESERVED | WEBSITE CREATED & MAINTAINED BY SAHIL ALAM</div>
