@@ -14,7 +14,7 @@ const SocialCard = (props) => {
 
 export const mail = (event) => {
     event.preventDefault();
-    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent('sa400919@gmail.com')}`, '_blank');
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=sa400919@gmail.com', '_blank');
 }
 
 const Footer = () => {
