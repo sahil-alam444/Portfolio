@@ -11,12 +11,6 @@ const SocialCard = (props) => {
     )
 }
 
-
-export const mail = (event) => {
-    event.preventDefault();
-    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=sa400919@gmail.com', '_blank');
-}
-
 const Footer = () => {
     return (
         <footer id='foot' className='border-t-2 border-white'>
