@@ -26,7 +26,7 @@ const Home1 = () => {
         <span className='flex gap-4 place-self-end mr-24'>
           <img src="/right-arrow.png" className={`my-auto invert h-8 ease-out duration-[0.8s] delay-[1.3s] ${animate ? 'translate-x-0 opacity-100' : '-translate-x-[4em] opacity-0'}`} />
 
-          <a href="/Sahil%20Alam%20Resume.pdf" target='_blank' className={`text-2xl  hover:scale-110 hover:delay-0 hover:duration-200  ${animate ? 'translate-x-0 ease-out duration-[1s] delay-[0.8s] opacity-100' : '-translate-x-[40%] opacity-0'}`}>Download Resume</a>
+          <a href="/Sahil_Alam_Resume.pdf" target='_blank' className={`text-2xl  hover:scale-110 hover:delay-0 hover:duration-200  ${animate ? 'translate-x-0 ease-out duration-[1s] delay-[0.8s] opacity-100' : '-translate-x-[40%] opacity-0'}`}>Download Resume</a>
         </span>
       </div>
     </div>
