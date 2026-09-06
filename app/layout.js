@@ -4,7 +4,6 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import QueryProvider from "@/components/providers/QueryProvider";
 import { AudioProvider } from "@/components/providers/AudioProvider";
-import { MusicPlayer } from "@/components/ui/MusicPlayer";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -63,7 +62,6 @@ export default function RootLayout({ children }) {
 							{children}
 						</main>
 						<Footer />
-						<MusicPlayer />
 					</AudioProvider>
 				</QueryProvider>
 			</body>
