@@ -235,7 +235,6 @@ export const projects = [
 		],
 		techStack: ["Next.js 16", "React 19", "Tailwind CSS v4", "Typed.js", "Canvas Confetti"],
 		github: "https://github.com/sahil-alam444/Portfolio",
-		live: "https://sahilalamsoftdev.netlify.app",
 		status: "Live"
 	}
 ];
